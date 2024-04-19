@@ -204,7 +204,8 @@ We also provides [HiddenApiRefinePlugin](https://github.com/RikkaApps/HiddenApiR
 
   Finally, `newProcess` lacks tty support, it is not possible to implement an interactive shell with it. And we already has `rish` that allows users to run an interactive shell with privilege in any terminal app they like.
 
-### 13.1.0
+### 13.1.0adb shell sh /storage/emulated/0/Android/data/moe.shizuku.privileged.api/start.sh
+
 
 - Breaking change: [desugaring](https://developer.android.com/studio/write/java8-support#library-desugaring) is required if min API of your app is 23
 - Listeners now has an optional `Handler` parameter that determines which thread will the listener be called from
